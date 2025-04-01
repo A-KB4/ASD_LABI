@@ -1,0 +1,14 @@
+F:\fhnt\laba2.asd\laba2.asd\bin\Debug\net6.0\laba2.asd.exe
+F:\fhnt\laba2.asd\laba2.asd\bin\Debug\net6.0\laba2.asd.deps.json
+F:\fhnt\laba2.asd\laba2.asd\bin\Debug\net6.0\laba2.asd.runtimeconfig.json
+F:\fhnt\laba2.asd\laba2.asd\bin\Debug\net6.0\laba2.asd.dll
+F:\fhnt\laba2.asd\laba2.asd\bin\Debug\net6.0\laba2.asd.pdb
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\laba2.asd.GeneratedMSBuildEditorConfig.editorconfig
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\laba2.asd.AssemblyInfoInputs.cache
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\laba2.asd.AssemblyInfo.cs
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\laba2.asd.csproj.CoreCompileInputs.cache
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\laba2.asd.dll
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\refint\laba2.asd.dll
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\laba2.asd.pdb
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\laba2.asd.genruntimeconfig.cache
+F:\fhnt\laba2.asd\laba2.asd\obj\Debug\net6.0\ref\laba2.asd.dll
