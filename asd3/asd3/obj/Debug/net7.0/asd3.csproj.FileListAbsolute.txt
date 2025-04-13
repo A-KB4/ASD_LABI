@@ -1,0 +1,14 @@
+F:\fhnt\asd3\asd3\bin\Debug\net7.0\asd3.exe
+F:\fhnt\asd3\asd3\bin\Debug\net7.0\asd3.deps.json
+F:\fhnt\asd3\asd3\bin\Debug\net7.0\asd3.runtimeconfig.json
+F:\fhnt\asd3\asd3\bin\Debug\net7.0\asd3.dll
+F:\fhnt\asd3\asd3\bin\Debug\net7.0\asd3.pdb
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\asd3.GeneratedMSBuildEditorConfig.editorconfig
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\asd3.AssemblyInfoInputs.cache
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\asd3.AssemblyInfo.cs
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\asd3.csproj.CoreCompileInputs.cache
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\asd3.dll
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\refint\asd3.dll
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\asd3.pdb
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\asd3.genruntimeconfig.cache
+F:\fhnt\asd3\asd3\obj\Debug\net7.0\ref\asd3.dll
