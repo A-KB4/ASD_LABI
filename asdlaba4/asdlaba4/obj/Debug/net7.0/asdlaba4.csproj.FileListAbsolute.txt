@@ -1,0 +1,14 @@
+F:\fhnt\asdlaba4\asdlaba4\bin\Debug\net7.0\asdlaba4.exe
+F:\fhnt\asdlaba4\asdlaba4\bin\Debug\net7.0\asdlaba4.deps.json
+F:\fhnt\asdlaba4\asdlaba4\bin\Debug\net7.0\asdlaba4.runtimeconfig.json
+F:\fhnt\asdlaba4\asdlaba4\bin\Debug\net7.0\asdlaba4.dll
+F:\fhnt\asdlaba4\asdlaba4\bin\Debug\net7.0\asdlaba4.pdb
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\asdlaba4.GeneratedMSBuildEditorConfig.editorconfig
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\asdlaba4.AssemblyInfoInputs.cache
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\asdlaba4.AssemblyInfo.cs
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\asdlaba4.csproj.CoreCompileInputs.cache
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\asdlaba4.dll
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\refint\asdlaba4.dll
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\asdlaba4.pdb
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\asdlaba4.genruntimeconfig.cache
+F:\fhnt\asdlaba4\asdlaba4\obj\Debug\net7.0\ref\asdlaba4.dll
