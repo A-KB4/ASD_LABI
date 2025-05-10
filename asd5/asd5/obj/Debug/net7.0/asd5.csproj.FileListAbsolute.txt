@@ -1,0 +1,14 @@
+F:\fhnt\asd5\asd5\bin\Debug\net7.0\asd5.exe
+F:\fhnt\asd5\asd5\bin\Debug\net7.0\asd5.deps.json
+F:\fhnt\asd5\asd5\bin\Debug\net7.0\asd5.runtimeconfig.json
+F:\fhnt\asd5\asd5\bin\Debug\net7.0\asd5.dll
+F:\fhnt\asd5\asd5\bin\Debug\net7.0\asd5.pdb
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\asd5.GeneratedMSBuildEditorConfig.editorconfig
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\asd5.AssemblyInfoInputs.cache
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\asd5.AssemblyInfo.cs
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\asd5.csproj.CoreCompileInputs.cache
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\asd5.dll
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\refint\asd5.dll
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\asd5.pdb
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\asd5.genruntimeconfig.cache
+F:\fhnt\asd5\asd5\obj\Debug\net7.0\ref\asd5.dll
