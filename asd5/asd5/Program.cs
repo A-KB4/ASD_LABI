@@ -1,12 +1,125 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
+
+class MyStack
+{
+    private int[] items = new int[100];
+    private int top = -1;
+
+    public void Push(int value)
+    {
+        if (top < items.Length - 1)
+            items[++top] = value;
+        else
+            Console.WriteLine("Стек переповнено.");
+    }
+
+    public int Pop()
+    {
+        if (top >= 0)
+            return items[top--];
+        throw new InvalidOperationException("Стек порожній.");
+    }
+
+    public int Peek()
+    {
+        if (top >= 0)
+            return items[top];
+        throw new InvalidOperationException("Стек порожній.");
+    }
+
+    public void Clear()
+    {
+        top = -1;
+    }
+
+    public int Count => top + 1;
+
+    public void Display()
+    {
+        for (int i = top; i >= 0; i--)
+            Console.WriteLine(items[i]);
+    }
+
+    public int[] ToArray()
+    {
+        int[] result = new int[top + 1];
+        for (int i = 0; i <= top; i++)
+            result[i] = items[i];
+        return result;
+    }
+}
+
+class MyQueue
+{
+    private double[] items = new double[100];
+    private int head = 0;
+    private int tail = 0;
+    private int count = 0;
+
+    public void Enqueue(double value)
+    {
+        if (count < items.Length)
+        {
+            items[tail] = value;
+            tail = (tail + 1) % items.Length;
+            count++;
+        }
+        else
+            Console.WriteLine("Черга переповнена.");
+    }
+
+    public double Dequeue()
+    {
+        if (count > 0)
+        {
+            double val = items[head];
+            head = (head + 1) % items.Length;
+            count--;
+            return val;
+        }
+        throw new InvalidOperationException("Черга порожня.");
+    }
+
+    public double Peek()
+    {
+        if (count > 0)
+            return items[head];
+        throw new InvalidOperationException("Черга порожня.");
+    }
+
+    public void Clear()
+    {
+        head = tail = count = 0;
+    }
+
+    public int Count => count;
+
+    public void Display()
+    {
+        for (int i = 0; i < count; i++)
+        {
+            int index = (head + i) % items.Length;
+            Console.WriteLine(items[index]);
+        }
+    }
+
+    public double[] ToArray()
+    {
+        double[] result = new double[count];
+        for (int i = 0; i < count; i++)
+        {
+            int index = (head + i) % items.Length;
+            result[i] = items[index];
+        }
+        return result;
+    }
+}
 
 class Program
 {
-    static Stack<int> intStack = new Stack<int>();
-    static Queue<double> doubleQueue = new Queue<double>();
+    static MyStack intStack = new MyStack();
+    static MyQueue doubleQueue = new MyQueue();
 
     static void Main()
     {
@@ -41,27 +154,33 @@ class Program
                     break;
 
                 case "2":
-                    if (intStack.Count > 0)
+                    try
+                    {
                         Console.WriteLine($"Видалено: {intStack.Pop()}");
-                    else
-                        Console.WriteLine("Стек порожній.");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
                     break;
 
                 case "3":
                     Console.WriteLine("Стек:");
-                    foreach (int val in intStack)
-                        Console.WriteLine(val);
+                    intStack.Display();
                     break;
 
                 case "4":
-                    if (intStack.Count > 0)
+                    try
+                    {
                         Console.WriteLine($"Верхівка стеку: {intStack.Peek()}");
-                    else
-                        Console.WriteLine("Стек порожній.");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
                     break;
 
                 case "5":
-                    
                     Console.WriteLine("Генерується стек з 10 випадкових цілих чисел...");
                     intStack.Clear();
                     Random rand1 = new Random();
@@ -69,13 +188,11 @@ class Program
                         intStack.Push(rand1.Next(-20, 21));
 
                     Console.WriteLine("Згенерований стек:");
-                    foreach (int val in intStack)
-                        Console.Write(val + " ");
-                    Console.WriteLine();
+                    intStack.Display();
 
                     long product = 1;
                     bool hasOdd = false;
-                    foreach (int val in intStack)
+                    foreach (int val in intStack.ToArray())
                     {
                         if (val % 2 != 0)
                         {
@@ -95,39 +212,46 @@ class Program
                     break;
 
                 case "7":
-                    if (doubleQueue.Count > 0)
+                    try
+                    {
                         Console.WriteLine($"Видалено: {doubleQueue.Dequeue()}");
-                    else
-                        Console.WriteLine("Черга порожня.");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
                     break;
 
                 case "8":
                     Console.WriteLine("Черга:");
-                    foreach (double val in doubleQueue)
-                        Console.WriteLine(val);
+                    doubleQueue.Display();
                     break;
 
                 case "9":
-                    if (doubleQueue.Count > 0)
+                    try
+                    {
                         Console.WriteLine($"Перший елемент черги: {doubleQueue.Peek()}");
-                    else
-                        Console.WriteLine("Черга порожня.");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
                     break;
 
                 case "10":
-                    
                     Console.WriteLine("Генерується черга з 10 випадкових дійсних чисел...");
                     doubleQueue.Clear();
                     Random rand2 = new Random();
                     for (int i = 0; i < 10; i++)
-                        doubleQueue.Enqueue(Math.Round(rand2.NextDouble() * 20 - 10, 2)); 
+                        doubleQueue.Enqueue(Math.Round(rand2.NextDouble() * 20 - 10, 2));
 
                     Console.WriteLine("Згенерована черга:");
-                    foreach (double val in doubleQueue)
-                        Console.Write(val + " ");
-                    Console.WriteLine();
+                    doubleQueue.Display();
 
-                    int count = doubleQueue.Count(x => x > 0);
+                    int count = 0;
+                    foreach (double val in doubleQueue.ToArray())
+                        if (val > 0) count++;
+
                     Console.WriteLine($"Кількість додатних елементів: {count}");
                     break;
 
