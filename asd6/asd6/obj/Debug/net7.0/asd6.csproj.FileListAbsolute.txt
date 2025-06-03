@@ -1,0 +1,14 @@
+F:\fhnt\asd6\asd6\bin\Debug\net7.0\asd6.exe
+F:\fhnt\asd6\asd6\bin\Debug\net7.0\asd6.deps.json
+F:\fhnt\asd6\asd6\bin\Debug\net7.0\asd6.runtimeconfig.json
+F:\fhnt\asd6\asd6\bin\Debug\net7.0\asd6.dll
+F:\fhnt\asd6\asd6\bin\Debug\net7.0\asd6.pdb
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\asd6.GeneratedMSBuildEditorConfig.editorconfig
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\asd6.AssemblyInfoInputs.cache
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\asd6.AssemblyInfo.cs
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\asd6.csproj.CoreCompileInputs.cache
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\asd6.dll
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\refint\asd6.dll
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\asd6.pdb
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\asd6.genruntimeconfig.cache
+F:\fhnt\asd6\asd6\obj\Debug\net7.0\ref\asd6.dll
